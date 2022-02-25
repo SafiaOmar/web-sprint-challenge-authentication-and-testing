@@ -10,9 +10,9 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Setup
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Build your database executing `npm run migrate`.
-- [ ] Run tests locally executing `npm test`.
+- [X ] Run `npm install` to install your dependencies.
+- [X ] Build your database executing `npm run migrate`.
+- [X ] Run tests locally executing `npm test`.
 
 ## Project Instructions
 
@@ -54,6 +54,13 @@ Your finished project must include all of the following requirements (further in
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+   Answer: Sessions are good for stateless authentication. JSON web tokens are good for stateful authentication.
+
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
+   Answer: bcryptjs allows us to hash passwords to ensure we are protecting them as securely as possible.
+
 3. How are unit tests different from integration and end-to-end testing?
+   Answer: Unit testing is the method where individual units/components are tested in isolation. The main purpose of Integration testing is to test if the separately developed modules work together properly or not and to see if the system as whole works as expected.End-to-end testing is a testing strategy to execute tests that cover every possible flow of an application from its start to finish.
+
 4. How does _Test Driven Development_ change the way we write applications and tests?
+   Answer:It makes us write our tests before we write our code. It makes us begin with the end in mind, allowing for opportunities to identify edge cases and write better code.
