@@ -58,7 +58,8 @@ describe("auth router", () => {
       expect(expected.text).toContain("invalid credentials");
     });
   });
-});
+})
+;
 describe("jokes", () => {
   describe("[get] /api/jokes", () => {
     let response;
