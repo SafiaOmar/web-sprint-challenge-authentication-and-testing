@@ -59,7 +59,6 @@ describe("auth router", () => {
     });
   });
 });
-
 describe("jokes", () => {
   describe("[get] /api/jokes", () => {
     let response;
